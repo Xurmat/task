@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.table-content{
+  width: 1140px;
+  margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+.checker{
+  float: right;
+  padding: 5px;
+  margin: 10px auto;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+
+th {
+border: 1px solid black;
+}
+
+td {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.pagination  {
+display: flex;
+justify-content: center;
+    padding: 20px;
+}
+.pagination button {
+  border-radius: 40%;
+  margin:0 15px ;
+  padding: 5px 30px;
+
+}
+
+.pages {
+  color: aqua;
+}
+.solved{
+  color: blue;
+}
+
+.attempCount{
+  color: red;
+}
+
+.tagName{
+  background-color: yellow;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+}
